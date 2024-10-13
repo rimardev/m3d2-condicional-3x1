@@ -27,3 +27,18 @@ function tarea2() {
     };
   };  
 };
+
+function tarea3() {
+  let msg3 = document.querySelector("#msg3");
+  let num1 = document.querySelector("#select1").value;
+  let num2 = document.querySelector("#select2").value;
+  let num3 = document.querySelector("#select3").value;
+  let pass = num1 + num2 + num3;
+  if (pass === "911" || pass === "714"){
+    msg3.innerHTML = "PASSWORD CORRECTO";
+    msg3.style.color = "green";
+  } else {
+    msg3.innerHTML = "PASSWORD INCORRECTO";
+    msg3.style.color = "red";
+  };
+};
