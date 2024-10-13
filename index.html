@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <section class="tarea1">
+  <section id="tarea1">
     <main class="main1">
       <h2>Tarea 1 - Aplicando Bordes</h2>
       <img src="./assets/img/avenger-wallpaper.jpg" id="img01" alt="">
@@ -15,30 +15,78 @@
     </main>
   </section>
 
-  <section class="tarea2">
+  <section id="tarea2">
     <main class="main2">
       <h2>Tarea 2 - Stickers</h2>
       <p>Puedes llevar hasta 10 stickers en total</p>
       <div class="bx-stickers">
         <div class="sticker">
           <img src="./assets/img/sticker-thor.png" alt="">
-          <input type="number" min="0" max="9" id="input1">
+          <input type="number" min="0" max="9" placeholder="0" id="input1">
         </div>
         <div class="sticker">
           <img src="./assets/img/sticker-romanoff.png" alt="">
-          <input type="number" min="0" max="9" id="input2">
+          <input type="number" min="0" max="9" placeholder="0" id="input2">
         </div>
         <div class="sticker">
           <img src="./assets/img/sticker-hulk.png" alt="">
-          <input type="number" min="0" max="9" id="input3">
+          <input type="number" min="0" max="9" placeholder="0" id="input3">
         </div>
       </div>
-      <p class="msg">Llevas 0 sticker</p>
+      <p class="msg" id="msg2">Llevas 0 sticker</p>
       <button class="btn" onclick="tarea2()">Verificar</button>
     </main>
   </section>
 
-  <section class="tarea3"></section>
+  <section id="tarea3">
+    <main class="main3">
+      <h2>Tarea 3 - Password</h2>
+      <div class="bx-pass">
+        <p>INGRESA PASSWORD</p>
+        <div bx-code>
+          <select name="" id="select1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="" id="select2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="" id="select3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+        </div>
+        <button class="btn">Ingresar</button>
+        <p class="msg">-</p>
+      </div>      
+    </main>
+  </section>
   
   <script src="./assets/js/main.js"></script>
 </body>
